@@ -1,0 +1,15 @@
+* {
+
+}
+/*Dark Theme*/
+@media (prefers-color-scheme: dark) {
+
+}
+/*Tablets*/
+@media only screen and (min-width: 767px){
+  
+}
+
+@media only screen and (min-width: 950px){
+ 
+}
