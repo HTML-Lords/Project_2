@@ -5,9 +5,41 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <title></title>
     <link rel="stylesheet" type="text/css" href="style/normalize.css">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-    <script async src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/style.css">   
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="js/script.js"></script>
+    <script defer src="js/jquery.bxslider.js"></script>
   </head>
   <body onload="init()">
+    <div id="logo">
+      <img src="media/logo.webp" alt="ISUD Logo">
+      <h1>The International Society for Universal Dialogue</h1>
+  </div>
+  <div id=title>
+  </div>
+    <header id="navcontainer">
+      <nav>
+        <div class="navlist">
+          <ul id="navbar" >
+            <li><a class="navlink" href="index.html" title="Home">Home</a></li>
+            <li><a class="navlink" href="membership.html" title="Membership">Membership</a></li>
+            <li><a class="navlink" href="contact.html" title="Contact Us">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="slidecontain">
+      <div class="slider">
+        <div class="slidepic">
+          <img src="media/img1.webp" alt="Image 1" title="Image 1">
+        </div>
+        <div class="slidepic">
+          <img src="media/img2.webp" alt="Image 2" title="Image 2">
+        </div>
+        <div class="slidepic">
+          <img src="media/img3.webp" alt="Image 3" title="Image 3">
+        </div>
+      </div>
+    </div>
   </body>
 </html>
