@@ -1,5 +1,66 @@
 * {
+  box-sizing: border-box;
+}
+#logo > img  {
+float:left
+}
+#logo{
+  padding: 1% 20%;
+}
+#logo > h1{
+  text-align: center;
+  line-height: 1.2em;
+  padding: 1em 0;
+  font-weight: 800;
+  font-size: 2.618em;
+  color:#000000;
+}
+/* Navigation Panel CSS */
+a.navlink:link {
+  background-color: #10365e;
+  color: #FFFFFF;
+  padding: 5px 5px;
+  border: 4px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5vw;
+  float: left;
+  margin: 10px;
+}
+a.navlink:visited {
+  color: #ffffff;
+  background-color: #042A52;
+}
+a.navlink:hover {
+  background-color: #042A52;
+  border-radius: 10px;
+}
+.navlist {
+  padding: 0%;
+}
+#navcontainer {
+  margin: 0;
+  padding: 0;
+  font-variant: small-caps;
+  position: sticky;
+  top: 0;
+  height: auto;
+  z-index: 5;
+}
 
+#navbar {
+  padding: 0;
+  width: 100%;
+  height: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2b6ca3;
+  color: grey;
+  text-align: center;
+  list-style-type: none;
 }
 /*Dark Theme*/
 @media (prefers-color-scheme: dark) {
