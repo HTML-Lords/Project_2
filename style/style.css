@@ -68,6 +68,7 @@ a.navlink:hover {
 /** RESET AND LAYOUT
 ===================================*/
 .slidecontain { 
+  padding-top: 2%;
   margin: 0 auto; 
   width:95%; 
   border: 0;
