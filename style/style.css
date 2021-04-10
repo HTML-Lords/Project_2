@@ -15,7 +15,33 @@ float:left
   font-size: 1.618em;
   color:#000000;
 }
-#footer {
+
+/*Footer Bar css*/
+a.footerlink:link {
+  background-color: #10365e;
+  color: #FFFFFF;
+  padding: 7px 7px;
+  border: 4%;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5vw;
+  float: left;
+  margin: 10px;
+}
+a.footerlink:visited {
+  color: #ffffff;
+  background-color: #042A52;
+}
+a.footerlink:hover {
+  background-color: #042A52;
+  border-radius: 10px;
+}
+#footerlist {
+  padding: 0%;
+}
+#footercontainer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -23,7 +49,24 @@ float:left
   background-color: #2B6CA3;
   height: 10%;
   text-align: center;
+  z-index: 5;
 }
+
+#footerbar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2B6CA3;
+  height: 10%;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
 
 /* Navigation Panel CSS */
 a.navlink:link {
