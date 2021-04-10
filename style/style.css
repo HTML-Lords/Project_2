@@ -15,6 +15,15 @@ float:left
   font-size: 2.618em;
   color:#000000;
 }
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2B6CA3;
+  height: 10%;
+  text-align: center;
+}
 /* Navigation Panel CSS */
 a.navlink:link {
   background-color: #10365e;
