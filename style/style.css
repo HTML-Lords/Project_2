@@ -12,10 +12,36 @@ float:left
   line-height: 1.2em;
   padding: 1em 0;
   font-weight: 800;
-  font-size: 2.618em;
+  font-size: 1.618em;
   color:#000000;
 }
-#footer {
+
+/*Footer Bar css*/
+a.footerlink:link {
+  background-color: #10365e;
+  color: #FFFFFF;
+  padding: 7px 7px;
+  border: 4%;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5vw;
+  float: left;
+  margin: 10px;
+}
+a.footerlink:visited {
+  color: #ffffff;
+  background-color: #042A52;
+}
+a.footerlink:hover {
+  background-color: #042A52;
+  border-radius: 10px;
+}
+#footerlist {
+  padding: 0%;
+}
+#footercontainer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -23,18 +49,36 @@ float:left
   background-color: #2B6CA3;
   height: 10%;
   text-align: center;
+  z-index: 5;
 }
+
+#footerbar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2B6CA3;
+  height: 10%;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+
 /* Navigation Panel CSS */
 a.navlink:link {
   background-color: #10365e;
   color: #FFFFFF;
   padding: 5px 5px;
-  border: 4px;
+  border: 4%;
   border-radius: 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   float: left;
   margin: 10px;
 }
@@ -62,7 +106,7 @@ a.navlink:hover {
 #navbar {
   padding: 0;
   width: 100%;
-  height: 4vw;
+  height: 6.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
