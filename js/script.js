@@ -9,14 +9,18 @@ function init(){
 }
 $(document).ready(function(){
   $('.slider').bxSlider({
-  slideWidth: 2000,
+  slideWidth: 600,
   adaptiveHeight: true,
   shrinkItems: true,
   controls: true,
-  autoControls: true,
+  autoControls: false,
   auto: true,
   autoStart: true,
-  autoHover: true,
-  captions: true,
+  autoHover: false,
+  captions: false,
+  touchEnabled: true,
+  responsive: true,
+  pager:false,
+  mode: 'fade',
   });
 });
