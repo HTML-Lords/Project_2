@@ -1,19 +1,86 @@
+/*Color Pallette from https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=153a49&primary.color=2B6CA3 */
+/* Major Third Modular Scale from https://www.modularscale.com/?1&em&1.25 */
 * {
   box-sizing: border-box;
 }
-#logo > img  {
-float:left
+html {
+  line-height: 2.441em;
 }
-#logo{
-  padding: 1% 20%;
+#header {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items:center;
+  align-content:center;
+  padding-bottom: 0;
 }
-#logo > h1{
+#logo {
+  float:left;
+  padding: 1%;
+  margin-right:5%;
+  width:20%;
+  padding-bottom: 0;
+}
+#title{
+  width:60%;
   text-align: center;
-  line-height: 1.2em;
-  padding: 1em 0;
   font-weight: 800;
-  font-size: 1.618em;
+  font-size: 2.441em;
   color:#000000;
+  padding: 10px;
+  padding-bottom: 0;
+}
+#title > h1{
+  text-align: center;
+}
+
+/* Navigation Panel CSS */
+a.navlink:link {
+  background-color: #2b6ca3;
+  color: #FFFFFF;
+  padding: 5px 5px;
+  border: 4%;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.953em;
+  float: left;
+  margin: 10px;
+}
+a.navlink:visited {
+  color: #ffffff;
+  background-color: #004274;
+}
+a.navlink:hover {
+  background-color: #004274;
+  border-radius: 10px;
+}
+.navlist {
+  padding: 0%;
+}
+#navcontainer {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  font-variant: small-caps;
+  position: sticky;
+  top: 0;
+  height: auto;
+  z-index: 5;
+}
+
+#navbar {
+  padding: 0;
+  width: 100%;
+  height: 6.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2b6ca3;
+  color: grey;
+  text-align: center;
+  list-style-type: none;
 }
 
 /*Footer Bar css*/
@@ -26,16 +93,16 @@ a.footerlink:link {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.5vw;
+  font-size: 1.25em;
   float: left;
   margin: 10px;
 }
 a.footerlink:visited {
   color: #ffffff;
-  background-color: #042A52;
+  background-color: #004274;
 }
 a.footerlink:hover {
-  background-color: #042A52;
+  background-color: #004274;
   border-radius: 10px;
 }
 #footerlist {
@@ -66,55 +133,28 @@ a.footerlink:hover {
   align-items: center;
   list-style-type: none;
 }
+#textcontain  {
+width:45%;
+float: left;
+padding-left: 5%;
+padding-top:2% ;
+font-size: 1em;
+font-weight: bold;
+}
 
-
-/* Navigation Panel CSS */
-a.navlink:link {
-  background-color: #10365e;
-  color: #FFFFFF;
-  padding: 5px 5px;
-  border: 4%;
-  border-radius: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 3.5vw;
-  float: left;
-  margin: 10px;
-}
-a.navlink:visited {
-  color: #ffffff;
-  background-color: #042A52;
-}
-a.navlink:hover {
-  background-color: #042A52;
-  border-radius: 10px;
-}
-.navlist {
-  padding: 0%;
-}
-#navcontainer {
-  margin: 0;
+#textcontain > ul{
+  list-style-type: circle;
+  list-style-position: inside;
   padding: 0;
-  font-variant: small-caps;
-  position: sticky;
-  top: 0;
-  height: auto;
-  z-index: 5;
 }
 
-#navbar {
-  padding: 0;
-  width: 100%;
-  height: 6.5vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #2b6ca3;
-  color: grey;
-  text-align: center;
-  list-style-type: none;
+#textcontain li {
+   font-size: 1em;
+    margin: 0;
+    padding:0 5%;
 }
+
+
 /*Slider Specific*/
 /** VARIABLES
 ===================================*/
@@ -123,8 +163,9 @@ a.navlink:hover {
 .slidecontain { 
   padding-top: 2%;
   margin: 0 auto; 
-  width:95%; 
+  width:45%; 
   border: 0;
+  float: right;
  }
 .slidecontain p {
    font-weight: bold;
