@@ -1,10 +1,14 @@
 /*Color Pallette from https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=153a49&primary.color=2B6CA3 */
 /* Major Third Modular Scale from https://www.modularscale.com/?1&em&1.25 */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+
 * {
   box-sizing: border-box;
 }
 html {
   line-height: 2.441em;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 #header {
   display: flex;
