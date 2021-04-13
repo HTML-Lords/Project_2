@@ -139,7 +139,7 @@ a.footerlink:hover {
 #textcontain  {
 width:75%;
 margin: 0 auto;
-padding: 2% 0 2% 10%;
+padding: 0;
 font-size: 1em;
 font-weight: bold;
 
@@ -148,7 +148,7 @@ font-weight: bold;
 #textcontain > ul{
   list-style-type: circle;
   list-style-position: inside;
-  padding: 0 5% 50%;
+  padding: 0 10% 50%;
 }
 
 #textcontain li {
@@ -389,7 +389,7 @@ ul.bxslider {
     #textcontain li {
        font-size: 1em;
         margin: 0;
-        padding:0 5%;
+        padding:0 10%;
     }
     #bodycontain  {
       display: flex;
@@ -403,6 +403,7 @@ ul.bxslider {
       border: 0;
       float: right;
      }
+     
      #navbar {
       height: 6.5vw;
       }
