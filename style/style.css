@@ -479,6 +479,9 @@ ul.bxslider {
     margin: 0;
     padding: 0 10%;
   }
+  #submitbutton {
+    padding-top: 2%;
+  }
   #bodycontain {
     display: flex;
     flex-direction: row;
