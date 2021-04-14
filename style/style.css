@@ -137,6 +137,25 @@ a.footerlink:hover {
   align-items: center;
   list-style-type: none;
 }
+#membershipcontain {
+  width: 60%;
+  margin: 0 auto;
+  padding-left: 2%;
+  padding-top: 2%;
+  font-size: 1em;
+  font-weight: bold;
+  padding-bottom: 10%;
+  margin-bottom: 20%;
+}
+#membershipcontain > p {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+#membershipcontain > ul {
+  list-style-type: circle;
+  list-style-position: outside;
+  padding-left: 10%;
+}
 #textcontain {
   width: 75%;
   margin: 0 auto;
@@ -450,6 +469,11 @@ ul.bxslider {
 }
 /*Tablets*/
 @media only screen and (min-width: 767px) {
+  #membershipcontain {
+    width: 40%;
+    padding: 0;
+    margin: 0 auto;
+  }
   /*Form Specific*/
   #contactForm {
     margin-bottom: 15%;
@@ -467,6 +491,7 @@ ul.bxslider {
     font-weight: bold;
     padding-bottom: 10%;
   }
+  
 
   #textcontain > ul {
     list-style-type: circle;
