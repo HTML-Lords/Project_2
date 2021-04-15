@@ -31,7 +31,7 @@ html {
   width: 60%;
   text-align: center;
   font-weight: 800;
-  font-size: 2.441em;
+  font-size: 1.563em;
   color: #000000;
   padding: 10px;
   padding-bottom: 0;
@@ -50,7 +50,7 @@ a.navlink:link {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.953em;
+  font-size: 1.25em;
   float: left;
   margin: 10px;
 }
@@ -234,12 +234,11 @@ textarea {
   margin: 0 auto;
   color: #ffffff;
   background-color: #2b6ca3;
-  border-radius: 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1.25em;
-  margin: 10px;
+ 
 }
 
 #newSubmitContain > button {
@@ -254,8 +253,11 @@ textarea {
   padding-top: 1.5%;
 }
 
+#thanksPage > h2 {
+  font-size: 1.5em;
+}
 #thanksPage > h3 {
-  font-size: 1.618em;
+  font-size: 1.25em;
 }
 .inputBox {
   padding-top: 1%;
@@ -466,9 +468,25 @@ ul.bxslider {
 }
 /*Dark Theme*/
 @media (prefers-color-scheme: dark) {
+  html  {
+    background-color: #004274;
+    color: #FFFFFF;
+  }
+  a:visited {
+    color:#ffffff;
+  }
+  #title {
+    color:#ffffff;
+  }
 }
 /*Tablets*/
 @media only screen and (min-width: 767px) {
+  #title {
+    font-size: 1.953em;
+  }
+  a.navlink:link {
+    font-size: 1.953em;
+  }
   #membershipcontain {
     width: 40%;
     padding: 0;
@@ -524,6 +542,10 @@ ul.bxslider {
 }
 
 @media only screen and (min-width: 950px) {
+  #title {
+    font-size: 3.052rem;
+    line-height: 3.052rem;
+  }
   #contactForm {
     margin-bottom: 5%;
   }
