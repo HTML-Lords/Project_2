@@ -45,7 +45,7 @@ a.navlink:link {
   background-color: #2b6ca3;
   color: #ffffff;
   padding: 5px 5px;
-  border: 4%;
+  border: 4px;
   border-radius: 15px;
   text-align: center;
   text-decoration: none;
@@ -92,7 +92,7 @@ a.footerlink:link {
   background-color: #10365e;
   color: #ffffff;
   padding: 7px 7px;
-  border: 4%;
+  border: 4px;
   border-radius: 15px;
   text-align: center;
   text-decoration: none;
