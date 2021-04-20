@@ -554,7 +554,7 @@ ul.bxslider {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    padding: 0.5% 0;
+    padding: 0;
   }
   .labelBox {
     max-width: 50%;
@@ -570,5 +570,14 @@ ul.bxslider {
     padding-left: 20px;
     padding-top: 0;
     align-self: center;
+  }
+  #formContain {
+    padding: 0;
+  }
+  #submitbutton {
+    margin-bottom: 0;
+  }
+  #textcontain  {
+    padding-bottom: 0;
   }
 }
