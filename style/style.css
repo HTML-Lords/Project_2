@@ -576,5 +576,8 @@ ul.bxslider {
   }
   #submitbutton {
     margin-bottom: 0;
-}
+  }
+  #textcontain  {
+    padding-bottom: 0;
+  }
 }
