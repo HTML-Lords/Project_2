@@ -167,7 +167,7 @@ a.footerlink:hover {
 #textcontain > ul {
   list-style-type: circle;
   list-style-position: inside;
-  padding: 0 10% 50%;
+  padding: 0 10% 20%;
 }
 
 #textcontain li {
@@ -494,7 +494,7 @@ ul.bxslider {
   }
   /*Form Specific*/
   #contactForm {
-    margin-bottom: 15%;
+    margin-bottom: 11%;
   }
   #formContain {
     padding-bottom: 0%;
@@ -507,7 +507,6 @@ ul.bxslider {
     padding-top: 2%;
     font-size: 1em;
     font-weight: bold;
-    padding-bottom: 10%;
   }
 
   #textcontain > ul {
@@ -527,6 +526,7 @@ ul.bxslider {
   #bodycontain {
     display: flex;
     flex-direction: row;
+    margin-bottom: 11%;
   }
   .slidecontain {
     padding-top: 2%;
@@ -547,7 +547,7 @@ ul.bxslider {
     line-height: 3.052rem;
   }
   #contactForm {
-    margin-bottom: 5%;
+    margin-bottom: 11%;
   }
   .flexContain {
     display: flex;
@@ -575,9 +575,9 @@ ul.bxslider {
     padding: 0;
   }
   #submitbutton {
-    margin-bottom: 0;
+    margin-bottom: 11%;
   }
   #textcontain  {
-    padding-bottom: 0;
+    margin-bottom: 11%;
   }
 }
