@@ -1,11 +1,20 @@
 function init() {
   //Add listeners for different events
-  window.addEventListener('load', init);
+  window.addEventListener('DOMContentLoaded', init);
   //JS Detection
   var html = document.getElementsByTagName('html')[0];
   if (html.className == 'nojs') {
     html.className = html.className.replace('nojs', 'hasjs');
   }
+}
+function forminit(){
+    //Add listeners for different events
+    window.addEventListener('DOMContentLoaded', init);
+    //JS Detection
+    var html = document.getElementsByTagName('html')[0];
+    if (html.className == 'nojs') {
+      html.className = html.className.replace('nojs', 'hasjs');
+    }
   document.getElementById('newSubmit').addEventListener('click', newSub);
   document.getElementById('contactForm').addEventListener('submit', showThanks);
   function showThanks() {
