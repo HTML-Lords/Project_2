@@ -576,4 +576,14 @@ ul.bxslider {
   #bodycontain  {
     margin-bottom: 92px;
   }
+  ::placeholder{
+	  color: black;
+	  opacity: 1;
+  }
+  :-ms-input-placeholder {
+	  color: black;
+  }
+  ::-ms-input-placeholder {
+	  color: black;
+  }
 }
