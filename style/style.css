@@ -183,6 +183,7 @@ a.footerlink:hover {
   margin: 0 auto;
   padding-bottom: 5%;
   font-weight: bold;
+  overflow: auto;
 }
 #thanksPage {
   width: 80vw;
@@ -199,7 +200,7 @@ a.footerlink:hover {
   text-align: center;
   color: #030000;
   background-color: #2b6ca3;
-  width: 100%;
+  width: 95%;
 }
 textarea {
   padding: 10px;
