@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', (event) => {
   var html = document.getElementsByTagName('html')[0];
   if (html.className == 'nojs') {
@@ -11,19 +10,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
   {
     newSubmission.addEventListener('click', newSub);
     conForm.addEventListener('submit', showThanks);
-  
     function showThanks() {
-    event.preventDefault();
-    var formDisp = document.getElementById('contactForm');
-    var thanksDisp = document.getElementById('thanksPage');
-    var subCheck = document.getElementById('acceptTC');
-    if (subCheck.checked == true) {
-      thanksDisp.style.display = 'block';
-      formDisp.style.display = 'none';
-    } 
-    else {
-      alert("You must agree to be contacted or we won't be able to contact you.");
-    }
+      event.preventDefault();
+      var formDisp = document.getElementById('contactForm');
+      var thanksDisp = document.getElementById('thanksPage');
+      var subCheck = document.getElementById('acceptTC');
+      if (subCheck.checked == true) {
+        thanksDisp.style.display = 'block';
+        formDisp.style.display = 'none';
+      } 
+      else {
+        alert("You must agree to be contacted or we won't be able to contact you.");
+      }
   }
   //Clears the form and show it again (hiding the thank you) for multiple submissions.
   function newSub() {
@@ -34,7 +32,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     formDisp.style.display = 'block';
   }
 }
-
 $(document).ready(function () {
   $('.slider').bxSlider({
     slideWidth: 600,
