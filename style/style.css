@@ -556,6 +556,9 @@ ul.bxslider {
   .flexContain > .inputBox {
     max-width:50%;
   }
+  .checkFlexContain > .inputBox {
+    width: auto;
+  }
   .inputBox {
     order: 2;
     padding-left: 20px;
