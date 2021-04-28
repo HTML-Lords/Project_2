@@ -252,6 +252,7 @@ textarea {
 }
 input[type='checkbox'] {
   transform: scale(2.5);
+  width: auto;
 }
 /*Slider Specific*/
 /** VARIABLES
