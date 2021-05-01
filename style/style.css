@@ -108,7 +108,6 @@ a.footerlink:hover {
   padding: 0%;
 }
 #footercontainer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -118,7 +117,6 @@ a.footerlink:hover {
   z-index: 5;
 }
 #footerbar {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
