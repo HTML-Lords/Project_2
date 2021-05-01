@@ -66,7 +66,6 @@ a.navlink:hover {
   margin: 0;
   width: 100%;
   padding: 0;
-  position: sticky;
   top: 0;
   height: auto;
   z-index: 5;
@@ -109,7 +108,6 @@ a.footerlink:hover {
   padding: 0%;
 }
 #footercontainer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -119,7 +117,6 @@ a.footerlink:hover {
   z-index: 5;
 }
 #footerbar {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -520,7 +517,7 @@ ul.bxslider {
     float: right;
   }
   #navbar {
-    height: 6.5vw;
+    height: 6.0vw;
   }
 }
 @media only screen and (min-width: 950px) {
