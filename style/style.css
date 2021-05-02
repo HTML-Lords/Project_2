@@ -195,14 +195,14 @@ a.footerlink:hover {
   border-radius: 25px;
   text-align: center;
   color: #030000;
-  background-color: #2b6ca3;
+
 }
 textarea {
   padding: 10px;
   border-radius: 15px;
   width: 70%;
   color: #030000;
-  background-color: #2b6ca3;
+  
 }
 #submitContain {
   width: 80vw;
