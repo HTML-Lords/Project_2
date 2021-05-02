@@ -180,7 +180,9 @@ a.footerlink:hover {
   margin: 0 auto;
   padding-bottom: 5%;
   font-weight: bold;
+  overflow: auto;
 }
+
 #thanksPage {
   width: 80vw;
   text-align: center;
@@ -195,7 +197,7 @@ a.footerlink:hover {
   border-radius: 25px;
   text-align: center;
   color: #030000;
-  width: 100%;
+  width: 95%;
 }
 textarea {
   padding: 10px;
