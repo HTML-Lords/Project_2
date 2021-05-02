@@ -195,7 +195,7 @@ a.footerlink:hover {
   border-radius: 25px;
   text-align: center;
   color: #030000;
-
+  width: 100%;
 }
 textarea {
   padding: 10px;
@@ -550,6 +550,10 @@ ul.bxslider {
   #commentsSection > .labelBox {
     padding: 0;
   }
+    .flexContain > .inputBox {
+      max-width:50%;
+    }
+
   .inputBox {
     order: 2;
     padding-left: 20px;
