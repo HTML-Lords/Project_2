@@ -202,7 +202,7 @@ textarea {
   border-radius: 15px;
   width: 70%;
   color: #030000;
-  
+
 }
 #submitContain {
   width: 80vw;
@@ -539,6 +539,13 @@ ul.bxslider {
     max-width: 50%;
     padding: 0.5%;
     order: 1;
+
+    align-content: left;
+      }
+      .flexContain > .labelBox  {
+        text-align: left;
+        width:150px
+      }
   }
   #commentsSection > .labelBox {
     padding: 0;
@@ -548,6 +555,7 @@ ul.bxslider {
     padding-left: 20px;
     padding-top: 0;
     align-self: center;
+    align-content: left;
   }
   #formContain {
     padding: 0;
@@ -565,4 +573,13 @@ ul.bxslider {
   ::-ms-input-placeholder {
 	  color: black;
   }
+  .checkFlexContain {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+    }
+
+
 }
