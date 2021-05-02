@@ -6,7 +6,7 @@
 }
 html {
   line-height: 2.441em;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Nanum Gothic', 'Verdana', 'Arial', sans-serif;
 }
 #header {
   display: flex;
@@ -561,8 +561,18 @@ ul.bxslider {
     padding: 0;
   }
   #bodycontain  {
+    margin: auto;
+    max-width: 1100px;
     margin-bottom: 92px;
   }
+    #textcontain {
+      width: 60%;
+    }
+    .slidecontain {
+      width: 40%;
+      margin: auto;
+    }
+
   ::placeholder{
 	  color: black;
 	  opacity: 1;
