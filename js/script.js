@@ -3,25 +3,23 @@ document.addEventListener('DOMContentLoaded', (event) => {
   if (html.className == 'nojs') {
     html.className = html.className.replace('nojs', 'hasjs');
   }
-})
-  var newSubmission = document.getElementById('newSubmit')
-  var conForm = document.getElementById('contactForm')
-  if (typeof(newSubmission) != 'undefined' && newSubmission != null)
-  {
-    newSubmission.addEventListener('click', newSub);
-    conForm.addEventListener('submit', showThanks);
-    function showThanks() {
-      event.preventDefault();
-      var formDisp = document.getElementById('contactForm');
-      var thanksDisp = document.getElementById('thanksPage');
-      var subCheck = document.getElementById('acceptTC');
-      if (subCheck.checked == true) {
-        thanksDisp.style.display = 'block';
-        formDisp.style.display = 'none';
-      } 
-      else {
-        alert("You must agree to be contacted or we won't be able to contact you.");
-      }
+});
+var newSubmission = document.getElementById('newSubmit');
+var conForm = document.getElementById('contactForm');
+if (typeof newSubmission != 'undefined' && newSubmission != null) {
+  newSubmission.addEventListener('click', newSub);
+  conForm.addEventListener('submit', showThanks);
+  function showThanks() {
+    event.preventDefault();
+    var formDisp = document.getElementById('contactForm');
+    var thanksDisp = document.getElementById('thanksPage');
+    var subCheck = document.getElementById('acceptTC');
+    if (subCheck.checked == true) {
+      thanksDisp.style.display = 'block';
+      formDisp.style.display = 'none';
+    } else {
+      alert("You must agree to be contacted or we won't be able to contact you.");
+    }
   }
   //Clears the form and show it again (hiding the thank you) for multiple submissions.
   function newSub() {
