@@ -542,7 +542,7 @@ ul.bxslider {
     max-width: 50%;
     padding: 0.5%;
     order: 1;
-    align-content: left;
+    align-content: start;
   }
   .flexContain > .labelBox {
     text-align: left;
@@ -563,7 +563,7 @@ ul.bxslider {
     padding-left: 20px;
     padding-top: 0;
     align-self: center;
-    align-content: left;
+    align-content: start;
   }
   #formContain {
     padding: 0;
